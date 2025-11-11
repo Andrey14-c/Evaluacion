@@ -5,3 +5,11 @@
     grid-template-rows: repeat(5px);
     
 }
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    grid-column:1 ;
+    grid-row:3 ;
+}
